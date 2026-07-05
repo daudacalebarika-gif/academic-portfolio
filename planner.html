@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Academic Planner | Student Suite</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <div class="logo">EduPortfolio</div>
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About Me</a></li>
+                <li><a href="projects.html">Projects</a></li>
+                <li><a href="planner.html" class="active">Planner</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="container">
+        <section class="planner-wrapper">
+            <h2>Interactive Academic Planner</h2>
+            <p>Manage assignments, readings, and project milestones seamlessly below.</p>
+            <hr>
+            
+            <div class="planner-input-group">
+                <input type="text" id="taskInput" placeholder="Enter academic task (e.g., Complete MIVA Assignment 1)...">
+                <button id="addTaskBtn" class="btn primary-btn">Add Task</button>
+            </div>
+
+            <ul id="taskList" class="task-list">
+                </ul>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 Caleb Arika. All Rights Reserved </p>
+    </footer>
+
+    <script src="planner.js"></script>
+</body>
+</html>
